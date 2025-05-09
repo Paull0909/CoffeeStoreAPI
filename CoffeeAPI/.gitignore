@@ -23,12 +23,12 @@
 **/*.props
 
 # Bỏ qua các file specific từ hình ảnh của bạn
-CoffeeAPI/.vs/ProjectEvaluation/
-CoffeeAPI/.vs/Shopthoitrang/
-CoffeeAPI/Data/bin/
-CoffeeAPI/Data/obj/
-CoffeeAPI/CoffeeAPI/bin/
-CoffeeAPI/CoffeeAPI/obj/
-CoffeeAPI/Application/bin/
-CoffeeAPI/Application/obj/
+.vs/ProjectEvaluation/
+.vs/Shopthoitrang/
+Data/bin/
+Data/obj/
+CoffeeAPI/bin/
+CoffeeAPI/obj/
+Application/bin/
+Application/obj/
 
