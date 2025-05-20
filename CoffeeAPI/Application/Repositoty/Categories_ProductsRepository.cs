@@ -20,6 +20,11 @@ namespace Application.Repositoty
             _mapper = mapper;
         }
 
-
+        public bool FindName(string name)
+        {
+            var cate = _context.Categories_Materials.Where(t => t.CategoryName == name).ToList();
+            if (cate != null) return true;
+            else return false;
+        }
     }
 }

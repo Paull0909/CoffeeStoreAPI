@@ -3,6 +3,7 @@ using Application.Service;
 using AutoMapper;
 using Data.Context;
 using Data.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,5 @@ namespace Application.Repositoty
         {
             _mapper = mapper;
         }
-
     }
 }

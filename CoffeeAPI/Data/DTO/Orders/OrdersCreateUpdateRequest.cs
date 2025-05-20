@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Data.DTO.OrderDetails;
 using Data.Enum;
 
 namespace Data.DTO.Orders
@@ -13,6 +14,7 @@ namespace Data.DTO.Orders
         public decimal Discount { get; set; }
         public decimal FinalAmount { get; set; }
         public TransactionStatus PaymentStatus { get; set; }
+        public List<OrderDetailsCreateUpdateRequest> orderDetails { get; set; }
         public class AutoMapperProfiles : Profile
         {
             public AutoMapperProfiles()

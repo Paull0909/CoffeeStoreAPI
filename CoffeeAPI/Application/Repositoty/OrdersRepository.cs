@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Application.Repositoty
 {
-    class OrdersRepository : RepositoryBase<OrderDetails, int>,IOrdersRepository
+    class OrdersRepository : RepositoryBase<Orders, int>,IOrdersRepository
     {
         private readonly IMapper _mapper;
         public OrdersRepository(Web_Context context, IMapper mapper) : base(context)

@@ -19,5 +19,13 @@ namespace Application.Repositoty
         {
             _mapper = mapper;
         }
+
+        public bool FindName(string name)
+        {
+
+            var cate = _context.Suppliers.Where(t => t.SupplierName == name).ToList();
+            if (cate != null) return true;
+            else return false;
+        }
     }
 }
